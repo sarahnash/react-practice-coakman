@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import HelloReact from './HelloReact.js'
+import HelloReact from './Components/HelloReact.js'
 
-import Tabs from './Tabs'
+import Tabs from './Components/Tabs'
 import './App.css';
+import LoremIpsum from './Components/LoremIpsum.js';
 
 class App extends Component {
   render() {
@@ -14,7 +15,7 @@ class App extends Component {
         <HelloReact/>
         </div>
         <div label="Lorem Ipsum">
-        Lorem Ipsum component will go here
+        <LoremIpsum/>
         </div>
         <div label="Login Form">
         Login Form component will go here

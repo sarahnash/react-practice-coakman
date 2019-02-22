@@ -1,11 +1,6 @@
 import React from 'react'
 
 class HelloReact extends React.Component {
-  constructor(props) {
-    super(props);
-   // don't really need this yet
-  }
-
   render() {
     return (
       <div className="HelloReact">
